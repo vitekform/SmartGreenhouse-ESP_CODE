@@ -9,9 +9,9 @@
 #include <ESP32Servo.h>
 
 // WiFi and MQTT credentials
-const char* ssid = "realme8";
-const char* password = "ganamaga";
-const char* mqtt_server = "b4aab6512bbd4adc8bcf3981fe64f1dc.s1.eu.hivemq.cloud";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const char* mqtt_server = "[REDACTED].s1.eu.hivemq.cloud";
 
 unsigned long pumpStartTime = 0;
 unsigned long lastPumpEndTime = 0;
